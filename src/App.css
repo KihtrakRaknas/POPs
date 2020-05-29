@@ -1,0 +1,42 @@
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    .superCenter{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    footer{
+        background-color: lightgrey;
+        box-shadow: 0 50vh 0 50vh lightgrey;
+        padding:10px;
+      }
+p{
+    font-size: large;
+    text-indent: 40px;
+}
+li{
+    font-size: large;
+}
+code{
+    font-size: xx-large;
+}
+p code{
+    font-size: 40px;
+}
+footer p{
+    margin:0;
+}
+.factCardImg{
+        max-width: 100%;
+        width:40%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
